@@ -4,12 +4,12 @@ module.exports = {
     name: 'support',
     description: 'support server of this Bot',
     execute(message, args) {
-        const supportServerLink = 'https://discord.gg/FUEHs7RCqz';
+        const supportServerLink = 'dsc.gg/PP09PetyaDecryptor';
         const embed = new EmbedBuilder()
             .setColor('#FFFFFF')
             .setTitle('Support server')
-            .setDescription(`Click [here](${supportServerLink}) to join our server.\nWe will be there for you anytime ❤️`)
-            .setThumbnail(`https://cdn.discordapp.com/attachments/1113800537402527903/1119995338359586837/a_e8d3128cee7f07ccec68962a8294f43d.gif`)
+            .setDescription(`Click [here](${supportServerLink}) to join our server.\nWe will be there for you anytime  (server not ready)❤️`)
+            .setThumbnail(`https://cdn.discordapp.com/attachments/1226091733637533786/1227335701419528192/standard-2.gif?ex=66280872&is=66159372&hm=fe27b175cbb310f33f370c695b5abfaf5fcc20799714b871680c1330ea8dc9d8&`)
             .setTimestamp();
 
 
