@@ -9,7 +9,7 @@ module.exports = {
         const embed = new EmbedBuilder()
             .setColor('#FFFFFF')
             .setTitle(' 🫅 Owner Info')
-            .setDescription(`__**About me**__:\n 🤖 Myself Shiva aka RTX. I am a discord bot developer and web developer. I love playing games, watching anime and building different webserver applications. You will get faster replies on instagram than other social media. Feel free to contact me!\n ❤️ [RTX GAMING](${youtubeLink})\n 💙 [Atstreak](${InstagramLink})`)
+            .setDescription(`__**About me**__:\n 🤖 My name is PP09 & PetyaDecryptor. I like playing computer games like Minecraft or Roblox, I watch a lot of YouTube and I'm a (minor) computer scientist. It won't be long before I make bots like this one, and Helper bots. We hope you will stay with us.`)
             .setTimestamp();
 
 
