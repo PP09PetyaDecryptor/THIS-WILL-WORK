@@ -17,7 +17,7 @@ module.exports = {
         url: 'https://discord.gg/FUEHs7RCqz'
     })
      
-      .setDescription(`__**STATS :**__\n\n> **📊 Bot in servers:** ${serverCount}\n> **🟢 Bot Ping:** ${botPing}ms\n> **👑 Made By [RTX](https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A)**\n\n__**COMMANDS :**__ `)
+      .setDescription(`__**STATS :**__\n\n> **📊 Bot in servers:** ${serverCount}\n> **🟢 Bot Ping:** ${botPing}ms\n> **👑 Made By [GDL]**\n\n__**COMMANDS :**__ `)
       .addFields(
         // Basic commands category
         {
@@ -60,22 +60,17 @@ module.exports = {
       .setImage(`https://cdn.discordapp.com/attachments/1226091733637533786/1227335701419528192/standard-2.gif?ex=66280872&is=66159372&hm=fe27b175cbb310f33f370c695b5abfaf5fcc20799714b871680c1330ea8dc9d8&`);
 
     const button1 = new ButtonBuilder()
-      .setLabel('YouTube')
-      .setURL('https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A')
+      .setLabel('YouTube soon dont click')
+      .setURL('https://www.ptoszek.pl')
       .setStyle(ButtonStyle.Link);
 
     const button2 = new ButtonBuilder()
       .setLabel('Discord')
-      .setURL('https://discord.gg/FUEHs7RCqz')
-      .setStyle(ButtonStyle.Link);
-
-    const button3 = new ButtonBuilder()
-      .setLabel('Code')
-      .setURL('https://replit.com/@BEASTGAMERS1/MULTI-MUSIC-BOT-v200?v=1')
-      .setStyle(ButtonStyle.Link);
+      .setURL('dsc.gg/PP09PetyaDecryptor')
+      .setStyle(ButtonStyle.Link)
       
     const row = new ActionRowBuilder()
-      .addComponents(button1, button2, button3);
+      .addComponents(button1, button2);
     
     message.reply({ embeds: [embed], components: [row] });
   },
